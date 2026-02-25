@@ -1,4 +1,4 @@
-LIBRARY wx_heap_manager
+LIBRARY {YOUR_DLL_NAME}
 EXPORTS
 	WxHeapManagerInit PRIVATE
 	WxCreateHeap PRIVATE
@@ -8,3 +8,4 @@ EXPORTS
 	WxHeapSetInformation PRIVATE
 	WxDestroyHeap PRIVATE
 	GetProcessWxHeap PRIVATE
+
