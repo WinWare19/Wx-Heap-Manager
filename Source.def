@@ -1,0 +1,10 @@
+LIBRARY wx_heap_manager
+EXPORTS
+	WxHeapManagerInit PRIVATE
+	WxCreateHeap PRIVATE
+	WxHeapAlloc PRIVATE
+	WxHeapFree PRIVATE
+	WxHeapReAlloc PRIVATE
+	WxHeapSetInformation PRIVATE
+	WxDestroyHeap PRIVATE
+	GetProcessWxHeap PRIVATE
